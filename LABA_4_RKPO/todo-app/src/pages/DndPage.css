@@ -1,0 +1,71 @@
+.dndpage-container {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 20px;
+    box-sizing: border-box;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+    background-color: lightsteelblue;
+    padding: 20px;
+    width: 290px;
+    min-height: 500px;
+  }
+  
+  .droppable {
+    background: lightgrey;
+    padding: 4px;
+    width: 290px;
+    min-height: 500px;
+  }
+  
+  .droppable.dragging-over {
+    background: lightblue;
+  }
+  
+  .draggable {
+    font-size: 14px;
+    user-select: none;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    margin: 0 0 8px 0;
+    min-height: 50px;
+    background-color:rgb(148, 161, 218);
+    color: white;
+  }
+  
+  .draggable.dragging {
+    background-color:darkslateblue;
+  }
+  
+  .delete-button {
+    margin-left: 10px;
+  }
+
+  .link {
+    padding-left: 610px;
+  }
+
+  .add-task-form {
+    padding-top: 90px;
+    margin-left: 600px;
+    display: flex;
+    margin-right: 10px;
+    flex: 1;
+  }
+
+  .add-task-form button {
+    margin-left: 15px;
+    padding: 10px 15px;
+  }
+
+  .add-task-form input {
+    margin-top: 20px;
+  }

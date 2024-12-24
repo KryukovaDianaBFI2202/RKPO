@@ -1,0 +1,63 @@
+:root {
+  font-family: 'Cambria', serif;  
+  font-size: 48;
+  line-height: 1.5;
+  font-weight: 400;
+  color:rgb(51, 40, 123);
+  background-color:#9e9fcb;
+}
+
+body {
+  margin-top: -90px;
+  margin-left: -10px;
+  display: flex;
+  place-items: center;
+  min-width: 100%;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+
+
+input {
+  margin-bottom: 10px;
+  background-color:rgb(213, 213, 229);
+  color:midnightblue;
+}
+
+button {
+  margin-left: 5px;
+  margin-top: 10px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color:slateblue;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  border-color: white;
+}
+
+button:focus,
+button:focus-visible {
+  background-color:cornflowerblue;
+}
+
+.ToDo-list {
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.container{
+margin-top: 20px;
+}
